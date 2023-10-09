@@ -17,14 +17,14 @@ Dcoker run Ubuntu-latest
 ```
 Dcoker Run --name <name you wants to give to your conatiner> <imagename-versionno.>
 ```
-##To run a container in detached mode, ude -d as a param
+##To run a container in detached mode, use -d as a param
 
 ```
 Dcoker Run -d <imagename-versionno.>
 Docker run -d Ubuntu 
 ```
 
-##To map the ports use -p parameter and specify the ports of 
+##To map the ports use -p parameter and specify the ports
 ```
-Dcoker Run -d -p <imageportnumber:portyouwant to use> <imagename-versionno.>
+Dcoker Run -d -p <Container port number:Application listens> <image name-version no.>
 ```
