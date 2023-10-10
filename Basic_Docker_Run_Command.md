@@ -17,7 +17,7 @@ Dcoker run Ubuntu-latest
 ```
 Dcoker Run --name <name you wants to give to your conatiner> <imagename-versionno.>
 ```
-##To run a container in detached mode, use -d as a param
+##To run a container in detached mode (running in background), use -d as a param
 
 ```
 Dcoker Run -d <imagename-versionno.>
@@ -27,4 +27,13 @@ Docker run -d Ubuntu
 ##To map/publish the ports use -p parameter and specify the ports
 ```
 Dcoker Run -d -p <port which you want to access from host or browser:image port no.> <image name-version no.>
+```
+##To get list of all running container
+```
+Docker ps
+```
+##To Stop & remove the running container
+```
+Docker stop <container id>
+Docker rm <container id>
 ```
