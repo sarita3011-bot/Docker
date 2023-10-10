@@ -24,7 +24,7 @@ Dcoker Run -d <imagename-versionno.>
 Docker run -d Ubuntu 
 ```
 
-##To map the ports use -p parameter and specify the ports
+##To map/publish the ports use -p parameter and specify the ports
 ```
-Dcoker Run -d -p <Container port number:Application listens> <image name-version no.>
+Dcoker Run -d -p <port which you want to access from host or browser:image port no.> <image name-version no.>
 ```
